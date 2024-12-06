@@ -22,4 +22,4 @@ class Telegram:
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '10'))
     MULTI_CLIENT = getenv('MULTI_CLIENT', 'False')
-    HIDE_CHANNEL = getenv('HIDE_CHANNEL', 'False')
+    HIDE_CHANNEL = getenv('HIDE_CHANNEL', 'True)
